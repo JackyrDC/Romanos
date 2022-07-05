@@ -14,14 +14,14 @@ public class Romanos {
         System.out.print("Ingrese un numero entre 1 y 3999 que desea conviertir a romanos: ");
         int n = teclado.nextInt();
         int resto = n;
-        m = resto / 1000; //3950/1000=3
-        resto = resto % 1000;  //950
+        m = resto / 1000; 
+        resto = resto % 1000;  
 
-        int c = resto / 100; //9
-        resto = resto % 100; // 50
+        int c = resto / 100; 
+        resto = resto % 100; 
 
-        int d = resto / 10; //5
-        resto = resto % 10; // 0
+        int d = resto / 10; 
+        resto = resto % 10;
 
         int u = resto;
         for (int i = 1; i <= m; i++) {
